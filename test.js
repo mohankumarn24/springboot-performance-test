@@ -19,6 +19,6 @@ export const options = {
 };
 
 export default function() {
-  let res = http.get('http://localhost:8080/api/v1/performancetest');
+  let res = http.get('http://localhost:8080/api/v1/performancetest/time');
   // check(res, { 'status is 200': (r) => r.status === 200 });
 }
