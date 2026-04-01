@@ -13,7 +13,7 @@ import java.util.List;
 @RequestMapping("/api/v1/performancetest")
 public class PerformanceController {
 
-    @GetMapping
+    @GetMapping("/time")
     public ResponseEntity<String> performanceTest() throws InterruptedException{
 
         // Thread.sleep(10);
